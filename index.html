@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<title>Portfólio - Kevin freire, criação de sites (programador web)</title>
+
+	<meta charset="utf-8">
+	<meta name="author" content="Kevin Freire">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+	<meta name="keywords" content="portfólio, programacao, web-desingner,front-end, back-end, desenvolvimento-web, criação de sites, kevin freire">
+	<meta name="robots" content="index, follow">
+	<meta name="description" content="Kevin Freire. Portfólio de criação de sites, desenvolvimento-web... front-end e back-end!
+
+	<!--icone-->
+	<link rel="icon" href="favicon.ico">
+
+	<!--font-->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+
+	<!--Arquivo de estilo-->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+	<header id="inicio">
+		<div class="container">
+			<div class="logo">
+
+				<a href="/"><img src="imagens/logo.png"><h2>Kevin Freire</h2></a>
+			</div><!--logo-->
+
+			<nav class="desktop">
+				<ul>
+					<li><a href="/">Início</a></li>
+					<li><a href="#sobre">Apresentação</a></li>
+					<li><a href="#projetos">Projetos realizados</a></li>
+					<li><a href="#orcamento">Orçamento</a></li>
+				</ul>
+			</nav><!--desktop-->
+			<nav class="mobile">
+				<i class="fas fa-bars"></i>
+				<ul>
+					<li><a href="/">Início</a></li>
+					<li><a href="#sobre">Apresentação</a></li>
+					<li><a href="#projetos">Projetos realizados</a></li>
+					<li><a href="#orcamento">Orçamento</a></li>
+				</ul>
+			</nav><!--mobile-->
+			<div class="clear"></div>
+		</div><!--container-->
+	</header>
+
+	<a title="Início" href="#inicio" class="voltar-inicio"><i class="fas fa-chevron-up"></i></a>
+
+	<div class="whats">
+		<a href="https://wa.me/5511986198253" target="_blank">
+			<div class="texto-whats">
+				<i class="fas fa-times-circle"></i>
+				<p>Fale comigo</p>
+			</div><!--texto-whats-->
+			<i class="fab fa-whatsapp-square"></i>
+		</a>
+	</div><!--whats-->
+
+	<section class="banner">
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="texto-banner">
+				<div class="wrap-title">
+					<h3>Portfólio</h3>
+					<h1>KEVIN FREIRE</h1>
+				</div><!--wrap-title-->
+				<p>Desenvolvedor Full-stack</p>
+				<p>Especialização Front-end</p>
+			</div><!--texto-banner-->
+			<div class="btn-banner">
+				<a href="#orcamento">Fazer orçamento</a>
+			</div><!--btn-banner-->
+		</div><!--container-->
+	</section><!--banner-->
+
+	<section id="sobre" class="sobre">
+		<div class="container">
+			<div class="title">
+				<h2>Apresentação rápida</h2>
+			</div><!--title-->
+			<p><?php echo $descricao['descricao']; ?></p>
+			<div class="habilidades-wrap">
+				<div class="habilidade-single w25">
+					<img src="imagens/responsivo.png">
+					<h3>100% Responsivo</h3>
+					<p>Site compatível com todos os tamanhos de tela</p>
+				</div><!--habilidade-single-->
+
+				<div class="habilidade-single w25">
+					<img src="imagens/personalizado.png">
+					<h3>Personalizado</h3>
+					<p>Totalmente personalizado, sua criatividade é o limite</p>
+				</div><!--habilidade-single-->
+
+				<div class="habilidade-single w25">
+					<img src="imagens/seo.png">
+					<h3>SEO</h3>
+					<p>(<i>Search Engine Optimization</i>). Otimizado paras as buscas no Google</p>
+				</div><!--habilidade-single-->
+
+				<div class="habilidade-single w25">
+					<img src="imagens/suporte.png">
+					<h3>Suporte rápido</h3>
+					<p>Tenha um suporte rápido e diretamente comigo</p>
+				</div><!--habilidade-single-->
+				<div class="clear"></div>
+			</div><!--habilidades-wrap-->
+			<div class="servicos">
+				<div class="servico-single">
+					<h4><i class="fas fa-laptop-code"></i></h4>
+					<h3>Landing Page</h3>
+					<p>Faça capitação de Leads, página de vendas com alta conversão. </p>
+				</div><!--servico-single-->
+
+				<div class="servico-single">
+					<h4><i class="fas fa-chart-area"></i></h4>
+					<h3>Sistemas web</h3>
+					<p>Tenha um sistema para o seu negócio e torne suas ideias realidades</p>
+				</div><!--servico-single-->
+
+				<div class="servico-single">
+					<h4><i class="fas fa-cogs"></i></h4>
+					<h3>Painel de controle</h3>
+					<p>Configure elementos do site pelo seu painel de controle personalizado.</p>
+				</div><!--servico-single-->
+
+				<div class="servico-single">
+					<h4><i class="far fa-newspaper"></i></h4>
+					<h3>Portais de notícias</h3>
+					<p>Um meio de comunicação própio, com notícias ou atualizações do dia a dia</p>
+				</div><!--servico-single-->
+
+				<div class="servico-single">
+					<h4><i class="far fa-building"></i></h4>
+					<h3>Site institucinal</h3>
+					<p>Promova a sua marca e concentre as principais informaçoes para seus clientes</p>
+				</div><!--servico-single-->
+			</div><!--servicos-->
+			<div class="entrar-contato">
+				<a href="#orcamento">Entre em contato</a>
+			</div><!--entrar-contato-->
+		</div><!--container-->
+	</section><!--sobre-->
+
+	<section id="projetos" class="projetos">
+		<div class="container">
+			<div class="title">
+				<h2>Projetos</h2>
+			</div>
+	
+			<p>Alguns trabalhos recentes:</p>
+			<div class="projetos-container">
+				<div class="projeto-single">
+					<a href="pages/ilustrador.html">
+						<img src="pages/uploads/6078dd3cbaa0c.jpg">
+					</a>
+					<div class="projeto-text">
+						<h3>Ilustrador</h3>
+						<a href="pages/ilustrador.html">Ver mais</a>
+					</div><!--projeto-text-->
+				</div><!--projeto-single-->
+
+				<div class="projeto-single">
+					<a href="pages/design-de-rede-social.html">
+						<img src="pages/uploads/6078dd4f44aa2.jpg">
+					</a>
+					<div class="projeto-text">
+						<h3>Design de Rede Social</h3>
+						<a href="pages/design-de-rede-social.html">Ver mais</a>
+					</div><!--projeto-text-->
+				</div><!--projeto-single-->
+
+				<div class="projeto-single">
+					<a href="pages/loja-virtual.html">
+						<img src="pages/uploads/6078dd687fe00.jpg">
+					</a>
+					<div class="projeto-text">
+						<h3>Loja virtual</h3>
+						<a href="pages/loja-virtual.html">Ver mais</a>
+					</div><!--projeto-text-->
+				</div><!--projeto-single-->
+
+				<div class="projeto-single">
+					<a href="pages/landing-page-para-afiliados.html">
+						<img src="pages/uploads/60802de4b0039.jpg">
+					</a>
+					<div class="projeto-text">
+						<h3>Landing Page para  afiliados</h3>
+						<a href="pages/landing-page-para-afiliados.html">Ver mais</a>
+					</div><!--projeto-text-->
+				</div><!--projeto-single-->
+
+
+				<div class="projeto-single">
+					<a href="pages/painel-de-controle.html">
+						<img src="pages/uploads/609d354058bad.png">
+					</a>
+					<div class="projeto-text">
+						<h3>Painel de controle</h3>
+						<a href="pages/painel-de-controle.html">Ver mais</a>
+					</div><!--projeto-text-->
+				</div><!--projeto-single-->
+			</div><!--projetos-container-->
+		</div><!--container-->
+		<i class="fas fa-chevron-down"></i>
+	</section><!--projetos-->
+	
+	
+	<section id="orcamento" class="contato">
+		<div class="container">
+			<div class="title">
+				<h2>Orçamento</h2>
+			</div><!--titulo-->
+	
+			<form id="form" method="post" action="formulario.php">
+				<div class="form-wrap">
+					<p>*Empresa/Nome</p>
+					<input type="text" name="nome" placeholder="*Empresa/Nome" title="Adicione seu nome" required>
+				</div><!--form-wrap-->
+				<div class="form-wrap">
+					<p>*Email</p>
+					<input type="email" name="email" placeholder="*Email" title="Adicione um email válido" required>
+				</div><!--form-wrap-->
+				<div class="form-wrap">
+					<p>*Celular</p>
+					<input type="text" name="telefone" placeholder="*Celular" title="Adicione seu telefone"  id="phone" required>
+				</div><!--form-wrap-->
+				<div class="form-wrap">
+					<span class="w85 left">Receber resposta pelo Whatsapp? (Não enviamos SPAM)</span>
+					<input class="w15 left" type="checkbox" name="whatsapp">
+				</div><!--form-wrap-->
+				<div class="clear"></div>
+				<!--<span>Informe o telefone para receber a resposta via whatsapp.(Opcional)</span>-->
+				<div class="form-wrap">
+					<p>*O que deseja?</p>
+					<textarea name="mensagem" placeholder="*O que deseja?" required></textarea>
+				</div><!--form-wrap-->
+				<span>* Campos obrigatórios.</span>
+				<div class="info-enviado">
+					<p>As informações foram enviadas com sucesso!</p>
+					<p>Entrarei em contato via E-mail ou Whatsapp.</p>
+				</div><!--info-enviado-->
+				<input type="submit" name="acao" value="Enviar">
+			</form>
+		</div><!--container-->
+	</section><!--contato-->
+	
+	<section class="info-add">
+		<div class="container">
+			<div class="info1 w50 left">
+				<h2>Entre em contato via:</h2>
+				<span>Email:</span>
+				<p>contato@portfoliokevinfreire.com</p>
+				<span>Whatsapp:</span>
+				<a href="https://wa.me/5511986198253" target="_blank"><i class="fab fa-whatsapp"></i> (11) 98619-8253</a>
+			</div><!--info1-->
+	
+			<div class="info2 w50 left">
+				<h2>Redes sociais</h2>
+				
+				<span>Linkedin:</span>
+				<a href="https://www.linkedin.com/in/kevin-gfreire" target="_blank"><i class="fab fa-linkedin"></i> @kevin_gfreire</a>
+				<span>Instagram:</span>
+				<a href="https://www.instagram.com/kevin_gfreire" target="_blank"><i class="fab fa-instagram"></i> Kevin Freire</a>
+				<span>Facebook:</span>
+				<a href="Kevin Freire" target="_blank"><i class="fab fa-facebook"></i> <Kevin Freire</a>
+				<span>GitHub:</span>
+				<a href="https://github.com/Kbakz" target="_blank"><i class="fab fa-github"></i> Kbakz</a>
+			</div><!--info2-->
+			<div class="clear"></div>
+		</div><!--container-->
+	</section><!--info-add-->
+	<footer>
+		<p>&copy Kevin Freire - 2021.</p>
+	</footer>
+
+
+	<script src="js/jquery.js" defer></script>	
+	<script src="https://kit.fontawesome.com/169263c84a.js" crossorigin="anonymous" defer></script>
+	<script src="js/jquery.mask.js" defer></script>
+	<script src="js/functions.js" defer></script>
+
+</body>
+</html>
